@@ -1,5 +1,14 @@
 <ion-view view-title="Menu">
-  <ion-content>
-
-  </ion-content>
+    <ion-content>
+        <ion-list>
+            <div class="list" ng-repeat="pizza in pizzas | orderBy:'+price'">
+                <span class="item item-thumbnail-left">
+                    <img ng-src="{{pizza.img}}" class="pizza-img">
+                    <p class="h4"><strong>{{pizza.name}}</strong></p>
+                    <p>{{pizza.description}}</p>
+                    <p><strong>R$ {{pizza.price}}</strong></p>
+                </span>
+            </div>
+        </ion-list>
+    </ion-content>
 </ion-view>

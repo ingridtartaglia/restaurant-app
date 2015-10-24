@@ -25,12 +25,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             }
         }
     })
-    .state('tab.contact-us', {
-        url: '/contact-us',
+    .state('tab.about-us', {
+        url: '/about-us',
         views: {
-            'tab-contact-us': {
-                templateUrl: 'templates/tab-contact-us.html',
-                controller: 'contactUsCtrl'
+            'tab-about-us': {
+                templateUrl: 'templates/tab-about-us.html',
+                controller: 'aboutUsCtrl'
             }
         }
     })

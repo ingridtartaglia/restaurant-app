@@ -21,10 +21,11 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 $assertive: #5d0000 !default;
 $dark: #FFDBDB;
 
-$bar-height:: 42px;
+$bar-height: 42px;
 $tabs-height: 42px;
 $tabs-icon-size: 24px;
 $tabs-text-font-size-side-icon: 14px;
+
 
 
 // Include all of Ionic
@@ -36,6 +37,7 @@ $tabs-text-font-size-side-icon: 14px;
 
 $bg: "../img/pizza.jpg";
 
+
 /////////
 
 // home
@@ -43,12 +45,18 @@ $bg: "../img/pizza.jpg";
     background: url($bg) no-repeat center center fixed;
     background-size: cover;
 }
+
 h1 {
     font-size: 48px;
     padding-top: 4em;
-    text-shadow: $popover-box-shadow;
+    text-shadow: 2px 2px 1px rgba(99, 99, 99, 1);
+
 }
 .subtitle {
     padding-top: 1.5em;
-    text-shadow: $popover-box-shadow;
+    text-shadow: 2px 2px 1px rgba(99, 99, 99, 1);
+}
+.pizza-img {
+    width: $item-avatar-width * 2;
+    height: $item-avatar-height * 2;
 }
