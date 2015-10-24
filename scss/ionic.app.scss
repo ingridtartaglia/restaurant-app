@@ -18,6 +18,37 @@ $dark:                            #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
+$assertive: #5d0000 !default;
+$dark: #FFDBDB;
+
+$bar-height:: 42px;
+$tabs-height: 42px;
+$tabs-icon-size: 24px;
+$tabs-text-font-size-side-icon: 14px;
+
+
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+///////////
+
+
+
+$bg: "../img/pizza.jpg";
+
+/////////
+
+// home
+.scroll-bg {
+    background: url($bg) no-repeat center center fixed;
+    background-size: cover;
+}
+h1 {
+    font-size: 48px;
+    padding-top: 4em;
+    text-shadow: $popover-box-shadow;
+}
+.subtitle {
+    padding-top: 1.5em;
+    text-shadow: $popover-box-shadow;
+}
